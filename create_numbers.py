@@ -1,7 +1,7 @@
 import string
 
 # Create a combined character set of all lowercase, uppercase letters, and digits
-char_set = string.ascii_lowercase + string.ascii_uppercase + string.digits + "."
+char_set = string.ascii_lowercase + string.ascii_uppercase + string.digits + "." + "\\" + ":"
 
 # Function to convert a string into a list of character positions
 def string_to_positions(input_string):
